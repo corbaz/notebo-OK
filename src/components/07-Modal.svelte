@@ -1,0 +1,68 @@
+<script lang="ts">
+	function cerrar() {
+		document.getElementById('FondoModal').style.display = "none";
+		document.body.style.overflowY = "visible";
+	}
+
+	let rotar = "animate-spin-slow";
+</script>
+<style lang="postcss"></style>
+
+<div
+	id="FondoModal"
+	class="z-40 fixed top-0 left-0 w-screen h-screen flex items-center
+		justify-center bg-amarillo bg-opacity-25 transition duration-1000
+		ease-out-in hover:bg-black transform hover:-translate-y-1
+		hover:scale-110 bg-gmail">
+	<div
+		id="Modal"
+		class="mx-auto my-auto px-12 py-4 bg-amarillo rounded-lg border-black
+			border-0 md:px-32 md:py-8">
+		<div
+			id="cerrarX"
+			class="flex justify-end text-lg font-bold text-black
+				hover:text-white -mr-8 pb-6 md:-mr-24"
+			alt="CERRAR">
+			<svg
+				class="w-8 h-8"
+				fill="none"
+				stroke="currentColor"
+				viewBox="0 0 24 24"
+				on:click={cerrar}
+				xmlns="http://www.w3.org/2000/svg">
+				<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" 
+				/>
+			</svg>
+		</div>
+
+		<div id="titulo" class="">
+			<h1 class="text-center text-3xl font-bold text-white pb-8">
+				Bienvenidos
+			</h1>
+		</div>
+
+		<div id="mensaje">
+			<img alt=""
+				id="logo"
+				src="/assets/icons/android-chrome-192x192.png"
+				class={rotar} />
+			<p class="text-2xl font-bold text-center text-black p-4">
+				notebo-OK
+			</p><br />
+		</div>
+
+		<div id="cerrarBoton" class="flex justify-center">
+			<button
+				class="text-sm font-bold text-center bg-black text-amarillo
+					border-black border-2 rounded hover:bg-white
+					hover:text-black hover:border-black cursor-pointer px-5 py-2"
+				on:click={cerrar}>
+				Cerrar
+			</button>
+		</div>
+	</div>
+</div>
