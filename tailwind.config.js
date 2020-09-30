@@ -35,7 +35,7 @@ module.exports = {
 		fontFamily: {
 			raj: ["Rajdhani", "sans-serif"],
 			ano: ["anonymous-pro"],
-			body: ["Giorgio"],
+			giorgio: ["Giorgio"],
 			lato: ["Lato"],
 			robot: ['Roboto', "sans-serif"]
 		},
