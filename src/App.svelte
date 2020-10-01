@@ -11,6 +11,7 @@
 	import SCROLLTOP from "./components/05-ScrollTop.svelte";
 	import CALL from "./components/06-Sticker.svelte";
 	import MODAL from "./components/07-Modal.svelte";
+	// import MODAL2 from "./components/08-Modal2.svelte";
 
 	let principalClass =
 		"flex flex-col justify-between h-screen mx-auto bg-yellow-500";
@@ -24,4 +25,5 @@
 	<SCROLLTOP />
 	<CALL />
 	<MODAL />
+	
 </div>
