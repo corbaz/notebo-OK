@@ -1,21 +1,10 @@
 @import "tailwindcss/base.css";
+@import "jcc/base/jcc-base.css";
 
 
 @import "tailwindcss/components.css";
 @import "tailwindcss/utilities.css";
 
-@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;700&display=swap");
-
-@import url("https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic");
-
-@font-face {
-	font-family: "Giorgio";
-	src: url("/assets/fonts/Giorgio.ttf");
-}
-
-@import url("https://use.typekit.net/flp8oxd.css");
-
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap");
 
 html {
 	-webkit-text-size-adjust: 100%;
@@ -62,7 +51,7 @@ body {
 }
 
 .texto-borde {
-	font-family: "Open Sans";
-	-webkit-text-stroke: 1px white;
-	color: black;
+	@apply font-open text-amarillo;
+	-webkit-text-stroke: 1px black !important; 
 }
+

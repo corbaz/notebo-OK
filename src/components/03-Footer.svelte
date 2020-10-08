@@ -1,68 +1,77 @@
 <script lang="ts">
 	import { datos } from "../js/db.js";
 </script>
-<style lang="postcss"></style>
+
+<style lang="postcss">
+	.pPagos {
+		@apply py-6 text-3xl font-bold leading-relaxed text-center
+				text-amarillo;
+	}
+	.imagenPagos {
+		@apply mx-auto;
+	}
+	.Contacto {
+		@apply mx-auto py-4;
+	}
+	.imagenRedes {
+		@apply mx-3;
+		height: 64px;
+		width: 64px;
+	}
+	.Telefono {
+		@apply mx-auto py-3 text-3xl font-bold leading-relaxed text-center
+				text-amarillo;
+	}
+</style>
+
 <footer class="">
-	<div id="Pagos">
-		<p
-			class="py-6 text-2xl font-bold leading-relaxed text-center
-				text-amarillo">
+	<div id="Pagos"class="items-center justify-center grid">
+		<p class="pPagos">
 			{@html datos.formas_de_pago}
 		</p>
-		<img
-			class="flex mx-auto"
-			height="168px"
-			width="362px"
-			src={datos.pagos}
-			alt="logo pagos" />
+		<img class="imagenPagos" 
+				  src={datos.pagos} 
+				  alt="logo pagos" />
 	</div>
-	<div id="Contactos">
+
+	<div id="Contactos"class="flex items-center justify-center">
 		<img
-			class="flex py-5 mx-auto"
+			class="Contacto"
 			src={datos.contacto}
 			alt="logo contactos" />
 	</div>
-	<div id="Redes" class="flex justify-center pb-2">
+
+	<div id="Redes" class="flex items-center justify-center">
 		<a href={datos.email} target="_blank">
-			<img
-				class="pt-2 mx-3"
-				height="64px"
-				width="64px"
-				src={datos.gmail}
-				alt="logo gmail" />
+			<img class="pt-3 imagenRedes" 
+					 src={datos.gmail} 
+					 alt="logo gmail"/>
 		</a>
-		<a href={datos.instagram} target="_blank">
-			<img
-				class="mx-3"
-				height="64px"
-				width="64px"
-				src={datos.instagram_png}
-				alt="logo instagram" />
-		</a>
-		<!-- 			´
+		<!-- 			
 			<a href={datos.whatsapp} target="_blank">
 				<img
-					class="mx-3"
-					height="64px"
-					width="64px"
+					class="imagenRedes"
 					src={datos.whatsapp_png}
 					alt="logo whatsapp" />
 			</a>
 		  -->
 		<a href={datos.facebook} target="_blank">
 			<img
-				class="mx-3"
-				height="64px"
-				width="64px"
+				class="imagenRedes"
 				src={datos.facebook_png}
 				alt="logo facebook" />
 		</a>
+		<a href={datos.instagram} target="_blank">
+			<img
+				class="imagenRedes"
+				src={datos.instagram_png}
+				alt="logo instagram" />
+		</a>
 	</div>
-	<div id="Telefono" class="py-3">
-		<a href={datos.telefono_url} target="">
-			<p class="text-3xl font-bold text-center text-amarillo ">
-				{datos.telefono}
-			</p>
+	<div id="Telefono" class="flex items-center justify-center">
+		<a class="Telefono" 
+			 href={datos.telefono_url} 
+			 target="">{datos.telefono}
 		</a>
 	</div>
 </footer>

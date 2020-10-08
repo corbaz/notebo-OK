@@ -62,11 +62,13 @@
 			</p><br />
 		</div>
 		
-		<div id="cerrarBoton" class="flex justify-center">
+		<div id="cerrarBoton" class="items-center  justify-center  grid grid-cols-1">
 			<button
-				class="text-sm font-bold text-center bg-black text-amarillo
-					border-black border-2 rounded hover:bg-white
-					hover:text-black hover:border-black cursor-pointer px-5 py-2 btn-blue"
+				class="text-sm font-bold text-center mx-auto mb-2
+				 	bg-black text-amarillo
+					border-black border-2 rounded 
+					hover:bg-white hover:text-black hover:border-black 
+					cursor-pointer px-5 py-2"
 				on:click={cerrar}>
 				Cerrar
 			</button>

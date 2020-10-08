@@ -1,15 +1,33 @@
 <script lang="ts">
 	import { articulos, datos } from "../js/db.js";
 </script>
-<style lang="postcss"></style>
-<section id="Articulos" class="mx-auto text-amarillo">
-	<img class="flex pb-3 mx-auto" src={datos.servicios} alt="logo servicios" />
-	<div
-		id="Articulo"
-		class="gap-4 
-		mx-24 grid grid-cols-1
-		sm:mx-20 sm:grid-cols-2 
-		lg:mx-8 lg:grid-cols-4">
+
+<style lang="postcss">
+	.sectionArticulos {
+		@apply mx-auto text-amarillo;
+	}
+	.imgServicios {
+		@apply flex pb-6 mx-auto;
+	}
+	.divArticulo {
+		@apply gap-4 mx-24 grid grid-cols-1;
+	}
+	@screen sm {
+		.divArticulo {
+			@apply mx-20 grid-cols-2;
+		}
+	}
+
+	@screen lg {
+		.divArticulo {
+			@apply mx-8 grid-cols-4;
+		}
+	}
+</style>
+
+<section id="Articulos" class="sectionArticulos">
+	<img class="imgServicios" src={datos.servicios} alt="logo servicios" />
+	<div id="Articulo" class="divArticulo">
 		{#each articulos as item}
 			<div class="py-6 border-0 border-amarillo rounded-lg">
 				<img
@@ -18,9 +36,9 @@
 					width={item.pixel}
 					src={item.imagen}
 					alt={item.title} />
-				<div class="font-bold leading-relaxed text-center">
-					<p class="pt-2 text-xl">{item.title}</p>
-					<p class="text-3xl">{item.precio}</p>
+				<div class="text-xl text-center font-bold leading-relaxed">
+					<p class="pt-2">{item.title}</p>
+					<p class="">{item.precio}</p>
 				</div>
 			</div>
 		{/each}
