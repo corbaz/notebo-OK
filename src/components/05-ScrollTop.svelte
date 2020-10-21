@@ -11,7 +11,11 @@
 	};
 
 </script>
-<style lang="postcss"></style>
+<style lang="postcss">
+	#ScrollTop{
+		z-index: 10001;
+	}
+</style>
 <div
 	id="ScrollTop"
 	class="fixed bottom-0 right-0 pb-24 mr-2 text-sm font-bold

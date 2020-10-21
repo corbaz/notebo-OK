@@ -1,17 +1,20 @@
 <!-- Ejemplos:
-	<div class="grid grid-cols-1 gap-16
+	<div class="grid m-16 pb-20 gap-16 bg-black 
+		grid-cols-1 
 		sm:grid-cols-2 
 		lg:grid-cols-3 
-		xxl:grid-cols-4 
-		bg-white py-20">
+		xxl:grid-cols-4"
+  	>
 		<CARD />
-		<CARD _class="card-border
-			 bg-blue-900 border-yellow-700 text-amarillo 
-			 text-justify text-tiny w-64 m-auto p-5" 
-			 topic="Tema"/>
-		<CARD _class="card 
-			bg-purple-600 border-gray-500 text-white"
-			topic="TOPIC"/>
+		<CARD
+			_class="card-border
+			bg-blue-900 border-yellow-700 text-amarillo 
+			text-justify text-tiny mx-0 my-auto p-5"
+			topic="Tema" />
+		<CARD
+			_class="card 
+	  		bg-purple-600 border-gray-500 text-white"
+			topic="TOPIC" />
 		<CARD _class="card-black" />
 		<CARD _class="card-blue" />
 		<CARD _class="card-gray" />
@@ -31,10 +34,12 @@
     <CARD _class="card-white" topic='Info' mensaje="JCC Producciones"/>
 -->
 <script lang="ts">
+	export let _id=""
 	export let _class: string = "";
 	export let topic: string = "Info:";
     export let mensaje: string = 
-    `{screen}: prefix to any existing background color utility. For example, use md:bg-green-500 to apply the bg-green-500 utility at only medium screen sizes and above.`;
+	"{screen}: prefix to any existing background color utility. For example, use md:bg-green-500 to apply the bg-green-500 utility at only medium screen sizes and above.";
+
 </script>
 
 <style lang="postcss">
@@ -46,6 +51,7 @@
 	}
 	.card-m-p {
 		@apply mx-16 my-2 p-6 text-justify;
+		@apply m-0 p-6 text-justify;
 	}
 	.card {
 		@apply card-border card-font card-m-p;
@@ -92,6 +98,6 @@
 	}
 </style>
 
-<div class="{_class ? _class : 'card-red'} ">
+<div id={_id} class="{_class ? _class : 'card-red'} ">
 	<strong>{topic.toLocaleUpperCase()}&nbsp;</strong>{mensaje}
 </div>

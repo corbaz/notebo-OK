@@ -1,10 +1,14 @@
 <script lang="ts">
 	import { datos } from "../js/db.js";
 </script>
-<style lang="postcss"></style>
+<style lang="postcss">
+	#Chat{
+		z-index: 10002;
+	}
+</style>
 <div
 	id="Chat"
-	class="z-40 fixed bottom-0 right-0 pb-4 mr-2 text-sm font-bold text-center
+	class="fixed bottom-0 right-0 pb-4 mr-2 text-sm font-bold text-center
 		text-amarillo">
 	<a href={datos.whatsapp} target="_blank">
 		<img

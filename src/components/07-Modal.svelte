@@ -4,10 +4,13 @@
 		document.body.style.overflowY = "visible";
 	}
 
-	let rotar = "animate-spin-slow";
+	/* let rotar = "animate-spin-slow"; */
 </script>
 
 <style lang="postcss">
+	#FondoModal {
+		z-index: 100000;
+	}
 	.rotar {
 		@apply animate-spin-slow;
 	}

@@ -10,7 +10,9 @@ Instagram: notebook.mdp
 
 ### Sitio Web en surge.sh:       [http://notebo-ok.surge.sh]
 
-### Sitio Web en vercel.app:    [https://notebo-ok.vercel.app/]
+### Sitio Web en vercel.app:    [https://notebo-ok.corbaz.vercel.app/]
+
+### Sitio Web en netlify.app:    [https://notebo-ok.netlify.app/]
 
 Tel: +54 223-5-444-899
 

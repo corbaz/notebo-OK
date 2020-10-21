@@ -2,34 +2,35 @@
 	import { datos } from "../js/db.js";
 	function scrollUp() {
 		let a = window.scrollY;
-		window.scrollTo(
-			{ 	
-				top: a - 100, 
-				left: 0, 
-				behavior: "smooth" 
-			}
-		);
+		window.scrollTo({
+			top: a - 100,
+			left: 0,
+			behavior: "smooth",
+		});
 	}
 	function scrollDown() {
 		let a = window.scrollY;
-		window.scrollTo(
-			{ 	
-				top: a + 100, 
-				left: 0, 
-				behavior: "smooth" 
-			}
-		);
+		window.scrollTo({
+			top: a + 100,
+			left: 0,
+			behavior: "smooth",
+		});
 	}
 
 	let stickerClass = "w-10 mt-2 bg-amarillo rounded-l-lg cursor-pointer";
 </script>
-<style lang="postcss"></style>
+
+<style lang="postcss">
+	#stickers {
+		z-index: 10003;
+	}
+</style>
+
 <div
 	id="stickers"
 	class="w-10 top-0 right-0 fixed mt-48 px-0 py-0 text-tiny font-bold
 		text-center text-black">
-
-	<div id="phone" class="{stickerClass}">
+	<div id="phone" class={stickerClass}>
 		<a href={datos.telefono_url}>
 			<img
 				id="logo_phone"
@@ -37,7 +38,7 @@
 				height="32px"
 				class="py-1 mx-auto "
 				src={datos.call_png}
-				alt="Llamar"/>
+				alt="Llamar" />
 			{@html datos.call}
 		</a>
 	</div>
