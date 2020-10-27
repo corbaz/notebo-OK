@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { datos } from "../js/db.js";
+<<<<<<< HEAD
 /* 	import Icon from "svelte-awesome";
 	import {
 		github,
@@ -14,6 +15,8 @@
 		codeFork,
 		ban,
 	} from "svelte-awesome/icons"; */
+=======
+>>>>>>> 3e2611b9480202e3f5676fa0af66de40bcdec36c
 </script>
 
 <style lang="postcss">
@@ -38,6 +41,7 @@
 		@apply m-auto text-3xl font-bold leading-relaxed text-center
 				text-amarillo;
 	}
+<<<<<<< HEAD
 /* 	.DALogo {
 		transition-duration: 0.8s;
 		transition-property: transform;
@@ -60,6 +64,8 @@
 		transform-style: preserve-3d;
 		position: relative;
 	} */
+=======
+>>>>>>> 3e2611b9480202e3f5676fa0af66de40bcdec36c
 </style>
 
 <footer class="">
@@ -67,16 +73,35 @@
 		<p class="pPagos">
 			{@html datos.formas_de_pago}
 		</p>
+<<<<<<< HEAD
 		<img class="imagenPagos" src={datos.pagos} alt="logo pagos" />
 	</div>
 
 	<div id="Contactos" class="flex items-center justify-center">
 		<img class="Contacto" src={datos.contacto} alt="logo contactos" />
+=======
+		<img class="imagenPagos" 
+				  src={datos.pagos} 
+				  alt="logo pagos" />
+	</div>
+
+	<div id="Contactos"class="flex items-center justify-center">
+		<img
+			class="Contacto"
+			src={datos.contacto}
+			alt="logo contactos" />
+>>>>>>> 3e2611b9480202e3f5676fa0af66de40bcdec36c
 	</div>
 
 	<div id="Redes" class="flex items-center justify-center">
 		<a href={datos.email} target="_blank">
+<<<<<<< HEAD
 			<img class="pt-3 imagenRedes" src={datos.gmail} alt="logo gmail" />
+=======
+			<img class="pt-3 imagenRedes" 
+					 src={datos.gmail} 
+					 alt="logo gmail"/>
+>>>>>>> 3e2611b9480202e3f5676fa0af66de40bcdec36c
 		</a>
 		<!-- 			
 			<a href={datos.whatsapp} target="_blank">
@@ -100,6 +125,7 @@
 		</a>
 	</div>
 	<div id="Telefono" class="flex items-center justify-center">
+<<<<<<< HEAD
 		<a class="Telefono" target="" href={datos.telefono_url}>
 			{datos.telefono}
 		</a>
@@ -214,3 +240,12 @@
 <Icon class="text-amarillo" data={codeFork} label="Forked Repository" />-->
 
 
+=======
+		<a class="Telefono" 
+			target=""
+			href={datos.telefono_url} >
+			{datos.telefono}
+		</a>
+	</div>
+</footer>
+>>>>>>> 3e2611b9480202e3f5676fa0af66de40bcdec36c

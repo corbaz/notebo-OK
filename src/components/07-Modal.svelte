@@ -24,8 +24,13 @@
 		hover:scale-110">
 	<div
 		id="Modal"
+<<<<<<< HEAD
 		class="mx-auto my-auto px-12 py-4 bg-white rounded-lg border-black	border-0 bg-modal bg-no-repeat bg-contain bg-top-left
 		md:px-32 md:py-8 ">
+=======
+		class="mx-auto my-auto px-12 py-4 bg-white rounded-lg border-black
+			border-0 md:px-32 md:py-8 bg-modal bg-no-repeat bg-contain bg-top-left">
+>>>>>>> 3e2611b9480202e3f5676fa0af66de40bcdec36c
 		<div
 			id="cerrarX"
 			class="flex justify-end text-lg font-bold text-black
@@ -53,20 +58,34 @@
 			</h1>
 		</div>
 
+<<<<<<< HEAD
 		<div id="mensaje" class="flex-block justify-center">
+=======
+		<div id="mensaje"  class="flex-block justify-center">
+>>>>>>> 3e2611b9480202e3f5676fa0af66de40bcdec36c
 			<img
 				alt=""
 				id="logo"
 				src="/assets/icons/android-chrome-192x192.png"
+<<<<<<< HEAD
 				class="rotar mx-auto" />
+=======
+				class="rotar mx-auto"
+			 />
+>>>>>>> 3e2611b9480202e3f5676fa0af66de40bcdec36c
 			<p class="text-2xl font-bold text-center text-black p-4">
 				notebo-OK
 			</p><br />
 		</div>
+<<<<<<< HEAD
 
 		<div
 			id="cerrarBoton"
 			class="items-center  justify-center  grid grid-cols-1">
+=======
+		
+		<div id="cerrarBoton" class="items-center  justify-center  grid grid-cols-1">
+>>>>>>> 3e2611b9480202e3f5676fa0af66de40bcdec36c
 			<button
 				class="text-sm font-bold text-center mx-auto mb-2
 				 	bg-black text-amarillo

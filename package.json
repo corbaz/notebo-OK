@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "notebo-ok",
     "version": "2.0.0",
   "scripts": {
@@ -8,15 +9,33 @@
     "update": "ncu -u && pnpm install",
     "ncu": "ncu",
     "pnpm-install": "pnpm install",
+=======
+  "name": "notebo-ok",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "svite build -ts",
+    "validate": "svelte-check && tsc --noEmit",
+    "dev": "svite -ts",
+    "update": "ncu -u && pnpm install",
+>>>>>>> 3e2611b9480202e3f5676fa0af66de40bcdec36c
     "optimizer": "vite optimize --force",
     "test": "jest",
     "notebo-ok": "npm run build && cd dist && surge --domain notebo-ok.surge.sh",
     "corbaz": "npm run build && cd dist && surge --domain corbaz.surge.sh"
   },
+<<<<<<< HEAD
   "dependencies": {
         "register-service-worker": "^1.7.1",
         "svelte-awesome": "^2.3.0"
   },
+=======
+
+  "dependencies": {
+    "register-service-worker": "^1.7.1",
+    "svelte-awesome": "^2.3.0"
+  },
+
+>>>>>>> 3e2611b9480202e3f5676fa0af66de40bcdec36c
   "devDependencies": {
     "@tsconfig/svelte": "^1.0.10",
     "postcss": "^8.1.2",

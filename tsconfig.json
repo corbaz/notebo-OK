@@ -4,6 +4,12 @@
   "exclude": ["node_modules/*", "public/*"],
   "compilerOptions": {
     "module": "esnext",
+<<<<<<< HEAD
     "types": ["svelte"]
   }
 }
+=======
+    "types": ["svelte","vite/dist/importMeta"]
+  }
+}
+>>>>>>> 3e2611b9480202e3f5676fa0af66de40bcdec36c
