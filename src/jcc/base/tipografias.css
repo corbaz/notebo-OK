@@ -4,7 +4,7 @@
 
 @font-face {
 	font-family: "Giorgio";
-	src: url("/assets/fonts/Giorgio.ttf");
+	src: url("../assets/fonts/Giorgio.ttf");
 }
 
 @import url("https://use.typekit.net/flp8oxd.css");

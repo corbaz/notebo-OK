@@ -501,7 +501,7 @@ svg {
 }
 @font-face {
 	font-family: Giorgio;
-	src: url(assets/fonts/Giorgio.ttf);
+	src: url(../assets/fonts/Giorgio.ttf);
 }
 .bg-transparent {
 	background-color: transparent;
@@ -677,7 +677,7 @@ svg {
 	background-color: rgba(74, 85, 104, var(--bg-opacity));
 }
 .bg-modal {
-	background-image: url(assets/img/modal.png);
+	background-image: url(../assets/img/modal.png);
 }
 .bg-opacity-25 {
 	--bg-opacity: 0.25;
