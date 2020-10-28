@@ -24,4 +24,4 @@ Instagram: notebook.mdp
 
 [💬 WhatsApp](https://wa.me/542235444899?text=Saludos "WhatsApp")
 
-[⭐ Mar del Plata - Buenos Aires - Argentina](https://goo.gl/maps/vsgWW4CV9zwz726F9 "Notebo-OK - Mar del Plata - Buenos Aires - Argentina")
+[⭐ Mar del Plata - Buenos Aires - Argentina](https://www.google.com/maps/place/Notebo-OK/@-38.0212666,-57.56851,17z/data=!4m5!3m4!1s0x9584df9cb5ea59ff:0xe27634b92b68367a!8m2!3d-38.021339!4d-57.5664152 "Notebo-OK - Mar del Plata - Buenos Aires - Argentina")

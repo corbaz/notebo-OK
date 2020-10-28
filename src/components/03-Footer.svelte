@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { datos } from "../js/db.js";
-/* 	import Icon from "svelte-awesome";
+	import Icon from "svelte-awesome";
 	import {
 		github,
 		codepen,
@@ -13,7 +13,7 @@
 		comment,
 		codeFork,
 		ban,
-	} from "svelte-awesome/icons"; */
+	} from "svelte-awesome/icons";
 </script>
 
 <style lang="postcss">
@@ -104,9 +104,9 @@
 			{datos.telefono}
 		</a>
 	</div>
-	<p class="mb-3 text-center text-amarillo">JCC Producciones - (c) 2020 Version 2.0.0</p>
+	<p class="mb-3 text-center text-amarillo">JCC Producciones * (c) 2020 Version 2.0.0</p>
 </footer>
-<!--<div class="mt-1">
+<div class="mt-1">
 	<div class="px-2">
 		<div
 			class="flex flex-wrap -mx-2 text-xs text-center uppercase font-hairline tracking-wide">
@@ -205,7 +205,7 @@
 <div class="flex items-center text-amarillo p-12">
 	<span class="mx-auto">© 2020 by Julio Corbaz</span>
 </div>
- basic 
+<!-- basic 
 <Icon class="text-red-600" data={beer} />-->
 
 <!-- with options 

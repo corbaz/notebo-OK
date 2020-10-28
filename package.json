@@ -5,6 +5,7 @@
     "build": "svite build -ts",
     "validate": "svelte-check && tsc --noEmit",
     "dev": "svite -ts -o",
+    "add": "git add .",
     "update": "ncu -u && pnpm install",
     "ncu": "ncu",
     "pnpm-install": "pnpm install",
