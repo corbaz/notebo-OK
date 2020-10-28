@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { datos } from "../js/db.js";
-	import Icon from "svelte-awesome";
+/* 	import Icon from "svelte-awesome";
 	import {
 		github,
 		codepen,
@@ -8,12 +8,7 @@
 		twitter,
 		instagram,
 		camera,
-		beer,
-		refresh,
-		comment,
-		codeFork,
-		ban,
-	} from "svelte-awesome/icons";
+	} from "svelte-awesome/icons"; */
 </script>
 
 <style lang="postcss">
@@ -38,28 +33,6 @@
 		@apply m-auto text-3xl font-bold leading-relaxed text-center
 				text-amarillo;
 	}
-/* 	.DALogo {
-		transition-duration: 0.8s;
-		transition-property: transform;
-		overflow: hidden;
-	}
-
-	.DALogo,
-	.DALogo img {
-		cursor: pointer;
-	}
-	.flip-container {
-		perspective: 1000;
-	}
-	.flip-container.active-hover:hover .flipper,
-	.flip-container.hover .flipper {
-		transform: rotateY(180deg);
-	}
-	.flipper {
-		transition: 0.6s;
-		transform-style: preserve-3d;
-		position: relative;
-	} */
 </style>
 
 <footer class="">
@@ -104,113 +77,6 @@
 			{datos.telefono}
 		</a>
 	</div>
-	<p class="mb-3 text-center text-amarillo">JCC Producciones * (c) 2020 Version 2.0.0</p>
+	<p class="mb-3 text-center text-amarillo">© 2020 by JCC Producciones - Version 2.0.0</p>
 </footer>
-<div class="mt-1">
-	<div class="px-2">
-		<div
-			class="flex flex-wrap -mx-2 text-xs text-center uppercase font-hairline tracking-wide">
-			<div class="w-full py-5 flex justify-around">
-				<div>
-					<p class="mb-3 text-amarillo">GitHub</p>
-					<a
-						href="https://github.com/davidangel"
-						target="_blank"
-						class="text-amarillo hover:text-white text-2xl">
-						<Icon data={github} /></a>
-				</div>
-				<div>
-					<p class="mb-3 text-amarillo">CodePen</p>
-					<a
-						href="https://codepen.io/davidangel"
-						target="_blank"
-						class="text-amarillo hover:text-white text-2xl">
-						<Icon data={codepen} /></a>
-				</div>
-				<div>
-					<p class="mb-3 text-amarillo">GitLab</p>
-					<a
-						href="https://gitlab.com/davidangel"
-						target="_blank"
-						class="text-amarillo hover:text-white text-2xl">
-						<Icon data={gitlab} /></a>
-				</div>
-			</div>
-			<div class="py-5 w-full">
-				<div class="logo flex items-center p-1 md:p-4">
-					<div class="mx-auto">
-						<div class="DALogo" style="width:75px;height:75px;">
-							<div
-								class="flip-container hover"
-								style="width:75;height:size;">
-								<div
-									class="flipper"
-									style="height:size; width:75; transition:0.5s;">
-									<div
-										class="front"
-										style="height:size;width:75;transition:0.5s;">
-		
-									</div>
-								</div>
-								<div
-									class="back"
-									style="height:size;width:75;transition:0.5s;">
-									<div>
-										<img
-											src="assets/icons/logo_svelte.svg"
-											width="75"
-											height="75"
-											alt="Julio Cesar Corbazl"
-											title="Julio Cesar Corbaz"
-											class="rounded-full border-2 border-solid border-amarillo" />
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="py-5 flex justify-around w-full">
-			<div>
-				<p class="mb-3 text-amarillo">Twitter</p>
-				<a
-					href="https://twitter.com/davidius"
-					target="_blank"
-					class="text-amarillo hover:text-white text-2xl">
-					<Icon data={twitter} />
-				</a>
-			</div>
-			<div>
-				<p class="mb-3 text-amarillo">Instagram</p>
-				<a
-					href="https://instagram.com/davidius"
-					target="_blank"
-					class="text-amarillo hover:text-white text-2xl">
-					<Icon data={instagram} />
-				</a>
-			</div>
-			<div>
-				<p class="mb-3 text-amarillo">Unsplash</p>
-				<a
-					href="https://unsplash.com/@davidangel"
-					target="_blank"
-					class="text-amarillo hover:text-white text-2xl">
-					<Icon data={camera} />
-				</a>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="flex items-center text-amarillo p-12">
-	<span class="mx-auto">© 2020 by Julio Corbaz</span>
-</div>
-<!-- basic 
-<Icon class="text-red-600" data={beer} />-->
-
-<!-- with options 
-<Icon class="text-amarillo" data={refresh} scale="2" />
-<Icon class="text-amarillo" data={comment} flip="horizontal" />
-<Icon class="text-amarillo" data={codeFork} label="Forked Repository" />-->
-
 
