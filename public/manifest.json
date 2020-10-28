@@ -43,12 +43,8 @@
 	],
 	"related_applications": [
 		{
-<<<<<<< HEAD
 			"platform": "web",
 			"id": "com.example.app"
-=======
-			"platform": "web"
->>>>>>> 3e2611b9480202e3f5676fa0af66de40bcdec36c
 		},
 		{
 			"platform": "play",

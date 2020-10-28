@@ -1,7 +1,5 @@
 .vscode
 .idea
-<<<<<<< HEAD
 node_modules
-=======
-node_modules
->>>>>>> 3e2611b9480202e3f5676fa0af66de40bcdec36c
+*.log
+pnpm-lock.yaml

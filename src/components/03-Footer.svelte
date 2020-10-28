@@ -104,7 +104,7 @@
 			{datos.telefono}
 		</a>
 	</div>
-	<p class="mb-3 text-center text-amarillo">JCC Producciones - 2020</p>
+	<p class="mb-3 text-center text-amarillo">JCC Producciones - (c) 2020 Version 2.0.0</p>
 </footer>
 <!--<div class="mt-1">
 	<div class="px-2">
