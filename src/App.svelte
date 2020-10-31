@@ -12,8 +12,8 @@
 	import MODAL from "./components/07-Modal.svelte";
 	// import MODAL2 from "./components/08-Modal2.svelte";
 	// import CARDDOBLE from "./components/0-jcc/carddoble.svelte";
-	// import CARD from "./components/0-jcc/card.svelte";
-
+	//import CARD from "./components/0-jcc/card.svelte";
+	//import CALENDARIO from "./components/0-jcc/calendario.svelte";
 	let principalClass =
 		"flex flex-col justify-between h-screen mx-auto bg-yellow-500";
 </script>
@@ -24,6 +24,7 @@
 	<HEADER />
 	<MAIN />
 	<FOOTER />
+	<!-- <CALENDARIO/> -->
 	<CHAT />
 	<SCROLLTOP />
 	<CALL />

@@ -34,12 +34,15 @@
     <CARD _class="card-white" topic='Info' mensaje="JCC Producciones"/>
 -->
 <script lang="ts">
-	export let _id=""
+	export let _id = "";
 	export let _class: string = "";
 	export let topic: string = "Info:";
-    export let mensaje: string = 
-	"{screen}: prefix to any existing background color utility. For example, use md:bg-green-500 to apply the bg-green-500 utility at only medium screen sizes and above.";
-
+	export let mensaje: string =
+		"{screen}: prefix to any existing background color utility. For example, use md:bg-green-500 to apply the bg-green-500 utility at only medium screen sizes and above.";
+	export let htmlFront: string=`
+		<h1 class=' text-red-600 text-right'>Hola Mundo</h1>
+		<img class="mx-auto" src="favicon.png"/>
+	`;
 </script>
 
 <style lang="postcss">
@@ -54,7 +57,7 @@
 		@apply m-0 p-6 text-justify;
 	}
 	.card {
-		@apply card-border card-font card-m-p;
+		@apply card-border card-font card-m-p m-16;
 	}
 
 	.card-black {
@@ -96,8 +99,20 @@
 	.card-yellow {
 		@apply card bg-yellow-200 border-yellow-400 text-yellow-700;
 	}
+	.card-amarillo {
+		@apply card bg-amarillo border-white text-black;
+	}
+	.card-black-amarillo {
+		@apply card bg-black border-amarillo text-amarillo;
+	}
 </style>
 
 <div id={_id} class="{_class ? _class : 'card-red'} ">
-	<strong>{topic.toLocaleUpperCase()}&nbsp;</strong>{mensaje}
+	{#if topic}<strong>{topic.toLocaleUpperCase()}&nbsp;</strong><br />{/if}
+
+	{#if mensaje}{mensaje}{/if}
+
+	{#if htmlFront}
+		{@html htmlFront}
+	{/if}
 </div>

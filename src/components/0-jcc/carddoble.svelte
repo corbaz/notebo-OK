@@ -19,34 +19,30 @@
 		<CARDDOBLE _id="mercado13" imgFront="/assets/img/MercadoPago.png" _classFront="card-white" />
 		<CARDDOBLE _id="mercado14" imgFront="/assets/img/MercadoPago.png" _classFront="card-yellow" />
 	</div>
-
 	import CARDDOBLE from "../components/0-jcc/carddoble.svelte";
 -->
 <script lang="ts">
 	function altura() {
 		let frontH = document.getElementById("front" + _id).clientHeight;
-
 		let frontW = document.getElementById("front" + _id).clientWidth;
-
 		document.getElementById("back" + _id).style.overflowY = "auto";
 		document.getElementById("back" + _id).style.height = frontH + "px";
 		document.getElementById("back" + _id).style.width = frontW + "px";
-	};
-
+	}
 	export let _id: string = "";
 
 	export let _classFront: string = "";
-	export let topicFront: string = "Info:";
-	export let imgFront: string = "";
+	export let topicFront: string = "Front Info:";
 	export let mensajeFront: string =
-		"{screen}: prefix to any existing background color utility. For example, use md:bg-green-500 to apply the bg-green-500 utility at only medium screen sizes and above.";
+		"Estimado En relación con la oferta de trabajo publicada, tengo el gusto de remitirles mi CV con el objetivo de participar en el proceso de selección Muchas Gracias. Estimado En relación con la oferta de trabajo publicada, tengo el gusto de remitirles mi CV con el objetivo de participar en el proceso de selección Muchas Gracias";
+	export let htmlFront =
+		"<h1 class=' text-red-600 text-right'>Hola Front</h1>";
 
 	export let _classBack: string = "";
-	export let topicBack: string = "Info:";
-	export let imgBack: string = "";
+	export let topicBack: string = "Back Info:";
 	export let mensajeBack: string =
 		"Estimado En relación con la oferta de trabajo publicada, tengo el gusto de remitirles mi CV con el objetivo de participar en el proceso de selección Muchas Gracias. Estimado En relación con la oferta de trabajo publicada, tengo el gusto de remitirles mi CV con el objetivo de participar en el proceso de selección Muchas Gracias";
-	export let htmlBack="";
+	export let htmlBack = "<h1 class=' text-red-600 text-right'>Hola Back</h1>";
 </script>
 
 <style lang="postcss">
@@ -62,7 +58,6 @@
 	.card {
 		@apply card-border card-font card-m-p;
 	}
-
 	.card-black {
 		@apply card bg-black border-gray-400 text-gray-500;
 	}
@@ -116,14 +111,12 @@
 	.Contenedor:hover .Tarjetero {
 		transform: rotateY(180deg);
 	}
-
 	.Tarjetero {
 		-webkit-transform-style: preserve-3d;
 		-webkit-transition: 0.5s;
 		-moz-transform-style: preserve-3d;
 		-moz-transition: 0.5s;
 	}
-
 	.Tarjetero .front {
 		z-index: 2;
 		top: 0;
@@ -148,20 +141,32 @@
 		<div
 			id="front{_id}"
 			class="front {_classFront ? _classFront : 'card-red'}"
-			on:mouseover="{altura}">
-			{#if imgFront}
-				<img src={imgFront} class="mx-auto py-2" alt="" />
+			on:mouseover={altura}>
+			{#if topicFront}
+				<strong
+					class="text-xl">{topicFront.toLocaleUpperCase()}&nbsp;</strong>
 			{/if}
-			<div class="text-center">
-				<strong class="text-xl">{topicFront.toLocaleUpperCase()}&nbsp;</strong>
-				<h1 class="text-3xl font-bold">{mensajeFront}</h1>
-			</div>
+			{#if mensajeFront}
+				<div class="text-center">
+					<h1 class="text-3xl font-bold">{mensajeFront}</h1>
+				</div>
+			{/if}
+			{#if htmlFront}
+				{@html htmlFront}
+			{/if}
 		</div>
 		<div
 			id="back{_id}"
 			class="back {_classBack ? _classBack : 'card-black'}">
-			{#if imgBack}<img src={imgBack} alt=""/>{/if}
-			<strong>{topicBack.toLocaleUpperCase()}&nbsp;</strong>{mensajeBack}
+			{#if topicBack}
+				<strong
+					class="text-xl">{topicBack.toLocaleUpperCase()}&nbsp;</strong>
+			{/if}
+			{#if mensajeBack}
+				<div class="text-center">
+					<h1 class="text-3xl font-bold">{mensajeBack}</h1>
+				</div>
+			{/if}
 			{#if htmlBack}
 				{@html htmlBack}
 			{/if}

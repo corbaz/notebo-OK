@@ -7,16 +7,12 @@ let panda = "Panda Security es una empresa española especializada en la creaci�
 
 let full = "Realizamos el Backup de su información. Formateamos su Unidad de Disco, para realizar una instalación completa y limpia. Instalamos Windows 10 actualizado y el Antivirus Panda en su última versión.Luego instalamos el paquete de Ofimática: Microsoft Office 2019. Por último, recuperamos su información resguardada anteriormente. Con todo esto logramos una Instalación Full y totalmente limpia.";
 
-let oferta="Windows 10 Full";
-let precio = "$ 1500";
-
 export let articulos = [
 	{
 		imagen: "assets/img/10ok.png",
 		title: "Windows 10 Pro",
 		precio: "$ 1000",
 		descripcion: windows,
-		html: "",
 		cardcolor: "card-purple",
 		pixel: pixelArticulo
 	},
@@ -25,7 +21,6 @@ export let articulos = [
 		title: "Office 2019 Pro",
 		precio: "$ 600",
 		descripcion: office,
-		html: "",
 		cardcolor: "card-orange",
 		pixel: pixelArticulo
 	},
@@ -34,7 +29,6 @@ export let articulos = [
 		title: "Antivirus 2020",
 		precio: "$ 300",
 		descripcion: panda,
-		html: "",
 		cardcolor: "card-blue",
 		pixel: pixelArticulo
 	},
@@ -43,12 +37,6 @@ export let articulos = [
 		title: "Windows 10 full",
 		precio: "Oferta $ 1500",
 		descripcion: full,
-		html: `	
-				<div class="text-center">
-					<br/>
-					<strong class="text-xl">${oferta}</strong>
-					<h1 class="text-3xl font-bold">${precio}</h1>
-				</div>`,
 		cardcolor: "card-amarillo",
 		pixel: pixelArticulo
 	}
