@@ -80,5 +80,5 @@
 	<p class="text-center text-sm text-amarillo"
 	>by JCC Produccione © 2020</p>
 	<p class="text-center text-sm text-amarillo"
-	>Version 20.11.02</p>
+	>Version 20.11.02.10.50</p>
 </footer>

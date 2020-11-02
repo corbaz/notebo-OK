@@ -2,8 +2,9 @@
   "name": "notebo-ok",
   "version": "2.0.0",
   "scripts": {
-    "build": "svite build -ts --assetsDir . --sourcemap true && gz.bat v.20.11 && cd dist && surge --domain notebo-ok.surge.sh && cd .. && pause 'arreglar index.html y css' && gh-pages -d dist -b master -e docs",
-    "deploy": "gh-pages -d dist -b master -e docs",
+    "build-all": "svite build -ts --assetsDir . --sourcemap true && gz.bat v.20.11 && cd dist && surge --domain notebo-ok.surge.sh && cd .. ",
+    "build-gitpages": "gh-pages -d dist -b master -e docs",
+    "build": "svite build -ts --assetsDir . --sourcemap true",
     "validate": "svelte-check && tsc --noEmit",
     "dev": "svite -ts -o",
     "remote": "git remote add origin https://github.com/corbaz/notebo-OK.git",
