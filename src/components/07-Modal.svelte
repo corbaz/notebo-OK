@@ -57,7 +57,7 @@
 			<img
 				alt=""
 				id="logo"
-				src="assets/icons/android-chrome-192x192.png"
+				src="assetsjcc/icons/android-chrome-192x192.png"
 				class="rotar mx-auto" />
 			<p class="text-2xl font-bold text-center text-black p-4">
 				notebo-OK

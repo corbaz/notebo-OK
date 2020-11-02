@@ -8,13 +8,13 @@ Nos especializamos en instalación y mantenimiento de Software, ofreciendo servi
 
 ``Instagram:`` notebook.mdp
 
-### `Sitio Web en surge.sh:` [http://notebo-ok.surge.sh]
+`Sitio Web en surge.sh:` [http://notebo-ok.surge.sh]
 
-### ``Sitio Web en vercel.app:`` [https://notebo-ok.corbaz.vercel.app]
+``Sitio Web en vercel.app:`` [https://notebo-ok.corbaz.vercel.app]
 
-### ``Sitio Web en netlify.app:`` [https://notebo-ok.netlify.app]
+``Sitio Web en netlify.app:`` [https://notebo-ok.netlify.app]
 
-### ``Sitio Web en GitHub Pages:`` [https://corbaz.github.io/notebo-OK]
+``Sitio Web en GitHub Pages:`` [https://corbaz.github.io/notebo-OK]
 
 [`📞 Teléfono/Phone`](tel:+542235444899 "Teléfono/Phone")
 

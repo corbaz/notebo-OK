@@ -67,8 +67,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: (theme) => ({
-        gmail: "url('/assets/icons/favicon-32x32.png')",
-        modal: "url('/assets/img/modal.png')",
+        gmail: "url('/assetsjcc/icons/favicon-32x32.png')",
+        modal: "url('/assetsjcc/img/modal.png')",
       }),
       colors: {
         amarillo: {

@@ -2,7 +2,8 @@
   "name": "notebo-ok",
   "version": "2.0.0",
   "scripts": {
-    "build": "svite build -ts",
+    "build": "svite build -ts --assetsDir . --sourcemap true",
+    "deploy": "gh-pages -d dist -b master -e docs",
     "validate": "svelte-check && tsc --noEmit",
     "dev": "svite -ts -o",
     "remote": "git remote add origin https://github.com/corbaz/notebo-OK.git",
@@ -22,9 +23,9 @@
     "svelte-awesome": "^2.3.0",
     "timeUtils": "2.0.0"
   },
-  
   "devDependencies": {
     "@tsconfig/svelte": "^1.0.10",
+    "gh-pages": "^3.1.0",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.1.4",
     "postcss-import": "^12.0.1",

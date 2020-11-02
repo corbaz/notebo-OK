@@ -9,7 +9,7 @@ let full = "Realizamos el Backup de su información. Formateamos su Unidad de Di
 
 export let articulos = [
 	{
-		imagen: "assets/img/10ok.png",
+		imagen: "assetsjcc/img/10ok.png",
 		title: "Windows 10 Pro",
 		precio: "$ 1000",
 		descripcion: windows,
@@ -17,7 +17,7 @@ export let articulos = [
 		pixel: pixelArticulo
 	},
 	{
-		imagen: "assets/img/officeok.png",
+		imagen: "assetsjcc/img/officeok.png",
 		title: "Office 2019 Pro",
 		precio: "$ 600",
 		descripcion: office,
@@ -25,7 +25,7 @@ export let articulos = [
 		pixel: pixelArticulo
 	},
 	{
-		imagen: "assets/img/pandaok.png",
+		imagen: "assetsjcc/img/pandaok.png",
 		title: "Antivirus 2020",
 		precio: "$ 300",
 		descripcion: panda,
@@ -33,7 +33,7 @@ export let articulos = [
 		pixel: pixelArticulo
 	},
 	{
-		imagen: "assets/img/windowsok.png",
+		imagen: "assetsjcc/img/windowsok.png",
 		title: "Windows 10 full",
 		precio: "Oferta $ 1500",
 		descripcion: full,
@@ -43,33 +43,33 @@ export let articulos = [
 ];
 
 export let datos = {
-	logo_PC: "assets/img/logo-pc.jpeg",
-	logo_Movil: "assets/img/logo-movil.jpeg",
-	servicios: "assets/img/servicios.png",
-	pagos: "assets/img/MercadoPago.png",
+	logo_PC: "assetsjcc/img/logo-pc.jpeg",
+	logo_Movil: "assetsjcc/img/logo-movil.jpeg",
+	servicios: "assetsjcc/img/servicios.png",
+	pagos: "assetsjcc/img/MercadoPago.png",
 	formas_de_pago: "Aceptamos<br/>Efectivo y Tarjetas",
-	contacto: "assets/img/contacto.png",
+	contacto: "assetsjcc/img/contacto.png",
 	email: "mailto:notebook.ar@gmail.com",
-	gmail: "assets/img/gmail.png",
+	gmail: "assetsjcc/img/gmail.png",
 	instagram: "https://www.instagram.com/notebook.mdp/",
-	instagram_png: "assets/img/instagram.png",
+	instagram_png: "assetsjcc/img/instagram.png",
 	facebook: "https://www.facebook.com/NoteboOK.mdp/",
-	facebook_png: "assets/img/facebook.png",
+	facebook_png: "assetsjcc/img/facebook.png",
 	telefono_url: "tel:+542235444899",
 	telefono: "223-5-444-899",
 	whatsapp: "https://api.whatsapp.com/send?phone=542235444899&text=Hola ",
-	whatsapp_png: "assets/img/whatsapp.png",
-	chat_png: "assets/img/chat.png",
+	whatsapp_png: "assetsjcc/img/whatsapp.png",
+	chat_png: "assetsjcc/img/chat.png",
 	chat: "CHAT",
-	up_png: "assets/img/up.png",
+	up_png: "assetsjcc/img/up.png",
 	up: "Subir",
-	down_png: "assets/img/down.png",
+	down_png: "assetsjcc/img/down.png",
 	down: "Bajar",
-	top_png: "assets/img/top.png",
+	top_png: "assetsjcc/img/top.png",
 	top: "Top",
-	call_png: "assets/img/phone2.png",
+	call_png: "assetsjcc/img/phone2.png",
 	call: "Llamar",
-	sms_png: "assets/img/sms1.png",
+	sms_png: "assetsjcc/img/sms1.png",
 	sms: "SMS",
 	sms_url: "sms:+542235444899",
 };
