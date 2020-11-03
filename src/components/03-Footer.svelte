@@ -83,6 +83,6 @@
 			by JCC Produccione © 2020
 		</p>
 		<p class="text-center text-sm text-amarillo">
-			Version 20.11.03.2000</p>
+			Version 20.11.03.2020</p>
 	</div>
 </footer>
