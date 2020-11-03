@@ -15,7 +15,7 @@
 <section id="Articulos" class="sectionArticulos">
 	<img class="imgServicios" src={datos.servicios} alt="logo servicios" />
 	<div
-		class="grid mx-10 py-8 gap-16 bg-black
+		class="grid mx-16 py-8 gap-16 bg-black
 			grid-cols-1
 			sm:grid-cols-2 
 			xxl:grid-cols-4">
@@ -27,7 +27,7 @@
 				mensajeFront=""
 				htmlFront="
 					<div>
-						<h1 class='text-2xl'>{item.title}</h1>
+						<h1 class='text-xl'>{item.title}</h1>
 						<h1 class='text-xl'>{item.precio}</h1>
 						</br>
 						<img class='mx-auto' src={item.imagen} alt=''/>
@@ -38,7 +38,7 @@
 				mensajeBack=""
 				htmlBack="
 					<div >
-						<h1 class='text-2xl text-right'>{item.title}</h1>
+						<h1 class='text-xl text-right'>{item.title}</h1>
 						<h1 class='text-xl text-right'>{item.precio}</h1>
 						<img class='mx-auto pb-2' src={item.imagen} height=96 width=96  alt='' />
 						<p class='text-justify'>{item.descripcion}</p>

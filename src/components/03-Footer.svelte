@@ -30,7 +30,7 @@
 		@apply pt-3 flex items-center justify-center;
 	}
 	.Telefono {
-		@apply m-auto text-3xl font-bold leading-relaxed text-center
+		@apply mx-16 text-2xl font-bold leading-relaxed text-center
 				text-amarillo;
 	}
 </style>
@@ -47,7 +47,7 @@
 		<img class="Contacto" src={datos.contacto} alt="logo contactos" />
 	</div>
 
-	<div id="Redes" class="flex items-center justify-center">
+	<div id="Redes" class="flex items-center justify-center mx-16">
 		<a href={datos.email} target="_blank">
 			<img class="pt-3 imagenRedes" src={datos.gmail} alt="logo gmail" />
 		</a>
@@ -78,6 +78,11 @@
 			{datos.telefono}
 		</a>
 	</div>
-	<p class="text-center text-sm text-amarillo">by JCC Produccione © 2020</p>
-	<p class="text-center text-sm text-amarillo">Version 20.11.03.0658</p>
+	<div id="Version" class="mx-16">
+		<p class="text-center text-sm text-amarillo">
+			by JCC Produccione © 2020
+		</p>
+		<p class="text-center text-sm text-amarillo">
+			Version 20.11.03.0658</p>
+	</div>
 </footer>
