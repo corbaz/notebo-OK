@@ -1,6 +1,4 @@
-# ``Servicio Técnico de PC y Notebook``
-
-## ``Servicio Técnico``
+## ``Servicio Técnico de PC y Notebook``
 
 Nos especializamos en instalación y mantenimiento de Software, ofreciendo servicios garantizados a la ciudad de Mar del Plata y zona.
 
