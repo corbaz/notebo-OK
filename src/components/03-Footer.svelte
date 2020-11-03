@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { datos } from "../js/db.js";
-/* 	import Icon from "svelte-awesome";
+	/* 	import Icon from "svelte-awesome";
 	import {
 		github,
 		codepen,
@@ -35,7 +35,7 @@
 	}
 </style>
 
-<footer class="">
+<footer>
 	<div id="Pagos" class="items-center justify-center grid ">
 		<p class="pPagos">
 			{@html datos.formas_de_pago}
@@ -72,13 +72,12 @@
 				alt="logo instagram" />
 		</a>
 	</div>
+
 	<div id="Telefono">
 		<a class="Telefono" target="" href={datos.telefono_url}>
 			{datos.telefono}
 		</a>
 	</div>
-	<p class="text-center text-sm text-amarillo"
-	>by JCC Produccione © 2020</p>
-	<p class="text-center text-sm text-amarillo"
-	>Version 20.11.02.10.50</p>
+	<p class="text-center text-sm text-amarillo">by JCC Produccione © 2020</p>
+	<p class="text-center text-sm text-amarillo">Version 20.11.03.0658</p>
 </footer>

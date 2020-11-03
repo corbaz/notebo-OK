@@ -53,7 +53,7 @@
 		@apply text-md font-robot;
 	}
 	.card-m-p {
-		@apply m-0 p-6 text-justify;
+		@apply m-0 p-2 text-justify;
 	}
 	.card {
 		@apply card-border card-font card-m-p;

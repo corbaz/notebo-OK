@@ -25,7 +25,7 @@
 	<MAIN />
 	<FOOTER />
 	<!-- <CALENDARIO/> -->
-	<CHAT />
+	 <CHAT />
+	 <CALL />
 	<SCROLLTOP />
-	<CALL />
 </div>

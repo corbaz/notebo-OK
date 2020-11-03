@@ -15,7 +15,7 @@
 <section id="Articulos" class="sectionArticulos">
 	<img class="imgServicios" src={datos.servicios} alt="logo servicios" />
 	<div
-		class="grid mx-16 py-8 gap-16 bg-black 
+		class="grid mx-10 py-8 gap-16 bg-black
 			grid-cols-1
 			sm:grid-cols-2 
 			xxl:grid-cols-4">

@@ -28,7 +28,7 @@
 
 <div
 	id="stickers"
-	class="w-10 top-0 right-0 fixed mt-48 px-0 py-0 text-tiny font-bold
+	class="w-10 top-0 right-0 fixed mt-16 px-0 py-0 text-tiny font-bold
 		text-center text-black">
 	<div id="phone" class={stickerClass}>
 		<a href={datos.telefono_url}>
