@@ -1,3 +1,0 @@
-git status -s -b
-
-
