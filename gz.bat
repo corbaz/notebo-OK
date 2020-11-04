@@ -1,11 +1,10 @@
 cls
-rem @echo off
+@echo off
 set HORA_COMPLETA=%TIME%
 set HORA=%HORA_COMPLETA:~0,2%
+if %HORA% LSS 10 set HORA=0%HORA_COMPLETA:~1,1%
 set MINUTOS=%HORA_COMPLETA:~3,2%
 set SEGUNDOS=%HORA_COMPLETA:~6,2%
-
-rem if %HORA% LSS 10 set HORA=0%HORA%
 
 set FECHA_COMPLETA=%DATE%
 set DIA=%FECHA_COMPLETA:~0,2%
@@ -25,4 +24,3 @@ git add .
 git commit -am "version: %Version%"
 
 git push --set-upstream origin master --force
-pause
