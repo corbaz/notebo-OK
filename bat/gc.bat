@@ -14,6 +14,6 @@ set ANIO=%FECHA_COMPLETA:~6,2%
 
 set Version=%Anio%.%MES%.%DIA%.%HORA%%MINUTOS%
 @echo version: %Version%
-echo %Version% > version.txt
+echo %Version% > .\public\version.txt
 
 git commit -am "version: %Version%"
