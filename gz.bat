@@ -14,7 +14,7 @@ set ANIO=%FECHA_COMPLETA:~6,2%
 set Version=%Anio%.%MES%.%DIA%.%HORA%%MINUTOS%
 @echo version: %Version%
 del C:\www\0-notebo-ok\public\version.txt
-echo %Version% > C:\www\0-notebo-ok\public\version.txt
+echo let version = %Version%;> C:\www\0-notebo-ok\public\version.js
 echo %Version%
 
 call npm run build
