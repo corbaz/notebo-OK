@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { datos } from "../js/db.js";
-	import { version } from "../public/version.js";
+	import { version } from "../js/version.js";
 
 	/* 	import Icon from "svelte-awesome";
 	import {
