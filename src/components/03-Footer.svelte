@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { datos } from "../js/db.js";
+	import { version } from "../public/version.js";
+
 	/* 	import Icon from "svelte-awesome";
 	import {
 		github,
@@ -83,6 +85,7 @@
 			by JCC Produccione © 2020
 		</p>
 		<p class="text-center text-sm text-amarillo">
-			Version 20.11.03.2012</p>
+			Version {version}
+		</p>
 	</div>
 </footer>
