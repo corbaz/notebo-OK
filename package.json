@@ -38,7 +38,7 @@
     "serve": "^11.3.2",
     "svelte": "3.31.0",
     "svelte-check": "^1.1.23",
-    "svelte-hmr": "0.12.2",
+    "svelte-hmr": "0.11.6",
     "svelte-preprocess": "4.6.1",
     "svite": "^0.8.1",
     "tailwindcss": "^2.0.2",
