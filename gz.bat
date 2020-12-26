@@ -22,4 +22,4 @@ git status -s -b
 git add .
 git commit -am "version: %Version%"
 
-git push --set-upstream origin master --force
+git push --set-upstream origin main --force
