@@ -74,7 +74,7 @@ module.exports = {
         amarillo: {
           '100': "#fdeeaf",
           default: "#F7C705",
-          '900': "#d1a804",
+          '900': "#F7C705",
         },
       },
       animation: {

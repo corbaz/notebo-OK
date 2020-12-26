@@ -28,8 +28,8 @@
 		md:px-32 md:py-8 ">
 		<div
 			id="cerrarX"
-			class="flex justify-end text-lg font-bold text-black
-				hover:text-amarillo -mr-8 pb-6 md:-mr-24"
+			class="flex justify-end font-lato text-lg text-black
+				hover:text-amarillo-900 -mr-8 pb-6 md:-mr-24"
 			alt="CERRAR">
 			<svg
 				class="w-8 h-8"
@@ -48,7 +48,7 @@
 
 		<div id="titulo" class="">
 			<h1
-				class="text-center text-3xl font-bold text-amarillo texto-borde pb-8">
+				class="text-center text-3xl font-bold text-amarillo-900 texto-borde pb-8">
 				BIENVENIDOS
 			</h1>
 		</div>
@@ -59,7 +59,7 @@
 				id="logo"
 				src="assetsjcc/icons/android-chrome-192x192.png"
 				class="rotar mx-auto" />
-			<p class="text-2xl font-bold text-center text-black p-4">
+			<p class="text-2xl font-giorgio text-center text-black p-4">
 				notebo-OK
 			</p><br />
 		</div>
@@ -68,8 +68,8 @@
 			id="cerrarBoton"
 			class="items-center  justify-center  grid grid-cols-1">
 			<button
-				class="text-sm font-bold text-center mx-auto mb-2
-				 	bg-black text-amarillo
+				class="font-lato text-md text-center mx-auto mb-2
+				 	bg-black text-amarillo-900
 					border-black border-2 rounded 
 					hover:bg-white hover:text-black hover:border-black 
 					cursor-pointer px-5 py-2"

@@ -18,8 +18,8 @@
 </style>
 <div
 	id="ScrollTop"
-	class="fixed bottom-0 right-0 pb-24 mr-2 text-sm font-bold
-		cursor-pointer text-center text-amarillo hidden">
+	class="fixed bottom-0 right-0 pb-24 mr-2 cursor-pointer 
+			   font-lato text-sm text-center text-amarillo-900 hidden">
 	{datos.top}
 	<img
 		id="logo_up"

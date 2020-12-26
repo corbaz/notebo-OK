@@ -1,7 +1,7 @@
 <!-- Ejemplos:
 		<ALERT />
 		<ALERT _class="alert-border
-			 bg-blue-900 border-yellow-700 text-amarillo 
+			 bg-blue-900 border-yellow-700 text-amarillo-900
 			 text-justify text-tiny w-64 m-auto p-5" 
 			 topic="Tema:"/>
 		<ALERT _class="alert 
@@ -57,9 +57,7 @@
 	.alert-indigo {
 		@apply alert bg-indigo-100 border-indigo-400 text-indigo-800;
 	}
-	.alert-orange {
-		@apply alert bg-orange-100 border-orange-400 text-orange-800;
-	}
+
 	.alert-pink {
 		@apply alert bg-pink-100 border-pink-400 text-pink-800;
 	}
@@ -69,9 +67,7 @@
 	.alert-red {
 		@apply alert bg-red-100 border-red-400 text-red-700;
 	}
-	.alert-teal {
-		@apply alert bg-teal-100 border-teal-400 text-teal-800;
-	}
+
 	.alert-transparent {
 		@apply alert bg-transparent border-purple-400 text-indigo-600;
 	}

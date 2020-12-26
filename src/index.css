@@ -51,7 +51,7 @@ body {
 }
 
 .texto-borde {
-	@apply font-open text-amarillo;
+	@apply font-open; 
+	@apply text-amarillo-900;
 	-webkit-text-stroke: 1px black !important; 
 }
-

@@ -17,7 +17,7 @@
 		});
 	}
 
-	let stickerClass = "w-10 mt-2 bg-amarillo rounded-l-lg cursor-pointer";
+	let stickerClass = "w-10 mt-2 bg-amarillo-900 rounded-l-lg cursor-pointer";
 </script>
 
 <style lang="postcss">
@@ -28,8 +28,8 @@
 
 <div
 	id="stickers"
-	class="w-10 top-0 right-0 fixed mt-16 px-0 py-0 text-tiny font-bold
-		text-center text-black">
+	class="w-10 top-0 right-0 fixed mt-16 px-0 py-0 
+			   font-lato text-sm text-center text-black">
 	<div id="phone" class={stickerClass}>
 		<a href={datos.telefono_url}>
 			<img
@@ -46,7 +46,7 @@
 	<div id="sms" class={stickerClass}>
 		<a href={datos.sms_url}>
 			<img
-				id="logo_phone"
+				id="logo_sms"
 				width="32px"
 				height="32px"
 				class="py-1 mx-auto"
@@ -63,7 +63,7 @@
 			height="32px"
 			class="py-1 mx-auto"
 			src={datos.up_png}
-			alt="Mensaje SMS"
+			alt="Subir"
 			on:click={scrollUp} />
 		{@html datos.up}
 	</div>
@@ -75,7 +75,7 @@
 			height="32px"
 			class="py-1 mx-auto"
 			src={datos.down_png}
-			alt="Mensaje SMS"
+			alt="Bajar"
 			on:click={scrollDown} />
 		{@html datos.down}
 	</div>

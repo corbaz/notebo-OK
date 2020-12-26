@@ -8,8 +8,8 @@
 </style>
 <div
 	id="Chat"
-	class="fixed bottom-0 right-0 pb-4 mr-2 text-sm font-bold text-center
-		text-amarillo">
+	class="fixed bottom-0 right-0 pb-4 mr-2 
+			   font-lato text-sm text-center text-amarillo-900">
 	<a href={datos.whatsapp} target="_blank">
 		<img
 			id="logo"

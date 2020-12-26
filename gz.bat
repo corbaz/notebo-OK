@@ -15,7 +15,6 @@ set Version=%Anio%.%MES%.%DIA%.%HORA%%MINUTOS%
 @echo version: %Version%
 del C:\www\0-notebo-ok\src\js\version.js
 echo export let version = "%Version%";> C:\www\0-notebo-ok\src\js\version.js
-echo %Version%
 
 call npm run build
 

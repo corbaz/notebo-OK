@@ -1,45 +1,10 @@
-<!-- Ejemplos:
-	<div class="grid m-16 pb-20 gap-16 bg-black 
-		grid-cols-1 
-		sm:grid-cols-2 
-		lg:grid-cols-3 
-		xxl:grid-cols-4"
-  	>
-		<CARD />
-		<CARD
-			_class="card-border
-			bg-blue-900 border-yellow-700 text-amarillo 
-			text-justify text-tiny mx-0 my-auto p-5"
-			topic="Tema" />
-		<CARD
-			_class="card 
-	  		bg-purple-600 border-gray-500 text-white"
-			topic="TOPIC" />
-		<CARD _class="card-black" />
-		<CARD _class="card-blue" />
-		<CARD _class="card-gray" />
-		<CARD _class="card-green" />
-		<CARD _class="card-indigo" />
-		<CARD _class="card-orange" />
-		<CARD _class="card-pink" />
-		<CARD _class="card-purple" />
-		<CARD _class="card-red" />
-		<CARD _class="card-teal" />
-		<CARD _class="card-transparent" />
-		<CARD _class="card-white" />
-		<CARD _class="card-yellow" />
-	</div>
-
-    import CARD from "./components/0-jcc/card.svelte";
-    <CARD _class="card-white" topic='Info' mensaje="JCC Producciones"/>
--->
 <script lang="ts">
 	export let _id = "";
 	export let _class: string = "";
 	export let topic: string = "Info:";
 	export let mensaje: string =
 		"{screen}: prefix to any existing background color utility. For example, use md:bg-green-500 to apply the bg-green-500 utility at only medium screen sizes and above.";
-	export let htmlFront: string=`
+	export let htmlFront: string = `
 		<h1 class=' text-red-600 text-right'>Hola Mundo</h1>
 		<img class="mx-auto" src="favicon.png"/>
 	`;
@@ -75,9 +40,6 @@
 	.card-indigo {
 		@apply card bg-indigo-200 border-indigo-400 text-indigo-700;
 	}
-	.card-orange {
-		@apply card bg-orange-200 border-orange-400 text-orange-700;
-	}
 	.card-pink {
 		@apply card bg-pink-200 border-pink-400 text-pink-700;
 	}
@@ -87,9 +49,7 @@
 	.card-red {
 		@apply card bg-red-200 border-red-400 text-red-700;
 	}
-	.card-teal {
-		@apply card bg-teal-200 border-teal-400 text-teal-700;
-	}
+
 	.card-transparent {
 		@apply card  bg-transparent  border-gray-400 text-gray-600;
 	}
@@ -100,10 +60,10 @@
 		@apply card bg-yellow-200 border-yellow-400 text-yellow-700;
 	}
 	.card-amarillo {
-		@apply card bg-amarillo border-white text-black;
+		@apply card bg-amarillo-100 border-white text-black;
 	}
 	.card-black-amarillo {
-		@apply card bg-black border-amarillo text-amarillo;
+		@apply card bg-black border-amarillo-100 text-amarillo-900;
 	}
 </style>
 

@@ -15,7 +15,7 @@
 
 <style lang="postcss">
 	.pPagos {
-		@apply pb-6 pt-0 px-16 text-3xl font-bold leading-relaxed text-center	text-amarillo;
+		@apply pb-6 pt-0 px-16 text-3xl font-giorgio leading-relaxed text-center text-amarillo-900;
 	}
 	.imagenPagos {
 		@apply mx-auto px-16;
@@ -32,8 +32,8 @@
 		@apply pt-3 flex items-center justify-center;
 	}
 	.Telefono {
-		@apply mx-16 text-2xl font-bold leading-relaxed text-center
-				text-amarillo;
+		@apply mx-16 text-2xl font-giorgio leading-relaxed text-center
+				text-amarillo-900;
 	}
 </style>
 
@@ -80,12 +80,10 @@
 			{datos.telefono}
 		</a>
 	</div>
-	<div id="Version" class="mx-16">
-		<p class="text-center text-sm text-amarillo">
+	<div id="Version" class="font-lato mx-16">
+		<p class="text-center text-md text-amarillo-900">
 			by JCC Produccione © 2020
 		</p>
-		<p class="text-center text-sm text-amarillo">
-			Version {version}
-		</p>
+		<p class="text-center text-md text-amarillo-900">Version {version}</p>
 	</div>
 </footer>

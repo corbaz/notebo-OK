@@ -5,7 +5,7 @@
 
 <style lang="postcss">
 	.sectionArticulos {
-		@apply mx-auto mb-0 text-amarillo;
+		@apply mx-auto mb-0 text-amarillo-900;
 	}
 	.imgServicios {
 		@apply flex  mx-auto px-16;
@@ -27,8 +27,8 @@
 				mensajeFront=""
 				htmlFront="
 					<div>
-						<h1 class='text-xl'>{item.title}</h1>
-						<h1 class='text-xl'>{item.precio}</h1>
+						<h1 class='font-lato text-xl'>{item.title}</h1>
+						<h1 class='font-lato text-xl'>{item.precio}</h1>
 						</br>
 						<img class='mx-auto' src={item.imagen} alt=''/>
 					</div>
@@ -38,10 +38,10 @@
 				mensajeBack=""
 				htmlBack="
 					<div >
-						<h1 class='text-xl text-right'>{item.title}</h1>
-						<h1 class='text-xl text-right'>{item.precio}</h1>
+						<h1 class='font-lato text-xl text-right'>{item.title}</h1>
+						<h1 class='font-lato text-xl text-right'>{item.precio}</h1>
 						<img class='mx-auto pb-2' src={item.imagen} height=96 width=96  alt='' />
-						<p class='text-justify'>{item.descripcion}</p>
+						<p class='font-lato text-justify'>{item.descripcion}</p>
 					</div>
 				"/>
 		{/each}

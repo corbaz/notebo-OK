@@ -73,9 +73,7 @@
 	.card-indigo {
 		@apply card bg-indigo-200 border-indigo-400 text-indigo-700;
 	}
-	.card-orange {
-		@apply card bg-orange-200 border-orange-400 text-orange-700;
-	}
+
 	.card-pink {
 		@apply card bg-pink-200 border-pink-400 text-pink-700;
 	}
@@ -84,9 +82,6 @@
 	}
 	.card-red {
 		@apply card bg-red-200 border-red-400 text-red-700;
-	}
-	.card-teal {
-		@apply card bg-teal-200 border-teal-400 text-teal-700;
 	}
 	.card-transparent {
 		@apply card bg-transparent  border-gray-400 text-gray-600;
@@ -98,10 +93,10 @@
 		@apply card bg-yellow-200 border-yellow-400 text-yellow-700;
 	}
 	.card-amarillo {
-		@apply card bg-amarillo border-white text-black;
+		@apply card bg-amarillo-900 border-white text-black;
 	}
 	.card-black-amarillo {
-		@apply card bg-black border-amarillo text-amarillo;
+		@apply card bg-black border-amarillo-900 text-amarillo-900;
 	}
 	.Contenedor {
 		position: relative;
