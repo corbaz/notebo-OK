@@ -4,7 +4,7 @@
   "scripts": {
     "build-all": "gz.bat && cd dist && surge --domain notebo-ok.surge.sh && cd .. ",
     "build-gitpages": "gh-pages -d dist -b master -e docs",
-    "build": "svite build -ts --assetsDir '.' --sourcemap true",
+    "build": "svite build -ts",
     "validate": "svelte-check && tsc --noEmit",
     "dev": "svite -ts -o",
     "remote": "git remote add origin https://github.com/corbaz/notebo-OK.git",
